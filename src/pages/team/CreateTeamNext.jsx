@@ -74,7 +74,7 @@ const CreateTeamNext = () => {
             {/* Campos do formulário */}
             <Form.Item
               name="teamName"
-              initialValue="Divisão de MicroInformática"
+              
               label="Nome do Grupo"
               rules={[
                 { required: true, message: "Por favor insira o nome do time!" },
@@ -85,7 +85,7 @@ const CreateTeamNext = () => {
 
             <Form.Item
               name="secondUserName"
-              initialValue="johnquinto"
+              
               label="Nome de usuário"
               rules={[
                 {
@@ -99,7 +99,7 @@ const CreateTeamNext = () => {
 
             <Form.Item
               name="password"
-              initialValue="123456"
+              
               label="Palavra-passe"
               rules={[
                 { required: true, message: "Por favor insira sua senha!" },
