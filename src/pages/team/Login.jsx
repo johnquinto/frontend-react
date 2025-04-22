@@ -86,13 +86,13 @@ const Login = () => {
               name="secondUserName"
               rules={[{ required: true, message: 'Por favor, insira seu nome de usuário!' }]}>
 
-              <Input />
+              <Input placeholder="Insira o seu nome de usuário" />
             </Form.Item>
             <Form.Item
               label="Palavra-Passe"
               name="password"
               rules={[{ required: true, message: 'Por favor, insira sua senha!' }]}>
-              <Input.Password placeholder="Senha" />
+              <Input.Password placeholder="Insira a palavra-passe" />
             </Form.Item>
             <Form.Item
               label="Código de Acesso"
