@@ -103,7 +103,7 @@ const JoinTeamFinal = () => {
                 },
               ]}
             >
-              <Input.Password placeholder="Insira uma palavra-passe/>
+              <Input.Password placeholder="Insira uma palavra-passe"/>
             </Form.Item>
             <Form.Item>
               <Space
