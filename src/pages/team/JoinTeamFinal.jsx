@@ -89,21 +89,21 @@ const JoinTeamFinal = () => {
                 },
               ]}
             >
-              <Input />
+              <Input placeholder="Insira um nome de usuário"/>
             </Form.Item>
             <Form.Item
               name="password"
               
               label="Palavra-passe"
               rules={[
-                { required: true, message: "Por favor insira sua senha!" },
+                { required: true, message: "Por favor insira uma palavra-passe!" },
                 {
                   min: 6,
                   message: "A senha deve ter pelo menos 6 caracteres!",
                 },
               ]}
             >
-              <Input.Password />
+              <Input.Password placeholder="Insira uma palavra-passe/>
             </Form.Item>
             <Form.Item>
               <Space
