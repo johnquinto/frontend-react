@@ -81,8 +81,7 @@ const Login = () => {
         <div style={{ width: '80%', maxWidth: 400, }}>
           <Form name="join-team" layout="vertical" onFinish={handleLogin} initialValues={{ accessCode }}>
             <Typography.Title level={4} style={{ textAlign: 'center' }}>Login</Typography.Title>
-            <Form.Item
-              initialValue="johnquinto"
+            <Form.Item              
               label="Nome de Usuário"
               name="secondUserName"
               rules={[{ required: true, message: 'Por favor, insira seu nome de usuário!' }]}>
@@ -90,7 +89,6 @@ const Login = () => {
               <Input />
             </Form.Item>
             <Form.Item
-              initialValue="123456"
               label="Palavra-Passe"
               name="password"
               rules={[{ required: true, message: 'Por favor, insira sua senha!' }]}>
