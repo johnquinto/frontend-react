@@ -118,11 +118,11 @@ const CustomHeader = ({ collapsed, setCollapsed }) => {
       icon: <LogoutOutlined />,
       danger: true,
       onClick: () => {        
-        // message.loading("A Sair...")
+        message.loading("A Sair...")
         setTimeout(() => {
           navigate("/");
           logout();
-        }, 100);
+        }, 4000);
       },
     },
   ];
