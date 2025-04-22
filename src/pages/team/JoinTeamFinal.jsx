@@ -80,7 +80,7 @@ const JoinTeamFinal = () => {
           <Form name="join_team" onFinish={handleJoinTeam} layout="vertical">
             <Form.Item
               name="secondUserName"
-              initialValue="paulodaniel"
+              
               label="Nome de Usuário"
               rules={[
                 {
@@ -93,7 +93,7 @@ const JoinTeamFinal = () => {
             </Form.Item>
             <Form.Item
               name="password"
-              initialValue="123456"
+              
               label="Palavra-passe"
               rules={[
                 { required: true, message: "Por favor insira sua senha!" },
