@@ -80,7 +80,7 @@ const CreateTeamNext = () => {
                 { required: true, message: "Por favor insira o nome do time!" },
               ]}
             >
-              <Input />
+              <Input placeholder="Insira o nome do grupo ou time"/>
             </Form.Item>
 
             <Form.Item
@@ -94,7 +94,7 @@ const CreateTeamNext = () => {
                 },
               ]}
             >
-              <Input />
+              <Input placeholder="Insira o nome de usuário"/>
             </Form.Item>
 
             <Form.Item
@@ -102,14 +102,14 @@ const CreateTeamNext = () => {
               
               label="Palavra-passe"
               rules={[
-                { required: true, message: "Por favor insira sua senha!" },
+                { required: true, message: "Por favor insira uma palavra-passe!" },
                 {
                   min: 6,
                   message: "A senha deve ter pelo menos 6 caracteres!",
                 },
               ]}
             >
-              <Input.Password />
+              <Input.Password placeholder="Insira uma palavra-passe"/>
             </Form.Item>
 
             <Form.Item>
