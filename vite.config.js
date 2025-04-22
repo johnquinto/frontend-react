@@ -7,10 +7,14 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000, // Para desenvolvimento local
+    host: '0.0.0.0', // Torna a aplicação acessível de qualquer IP
+    watch: {
+      usePolling: true, // Essencial se você estiver fazendo mudanças na configuração de rede ou proxy
+    },
   },
   preview: {
-    port: 4173, // Porta para o Render
+    port: 4173, // Porta usada pelo Render
     host: '0.0.0.0', // Expor a aplicação para qualquer IP
-    allowedHosts: ['frontend-react-w8wb.onrender.com'], // Adiciona o domínio do Render
+    allowedHosts: ['frontend-react-w8wb.onrender.com'], // Adiciona o domínio do Render à lista de hosts permitidos
   },
 });
