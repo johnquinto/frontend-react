@@ -24,7 +24,7 @@ const ConnectionModal = () => {
     <>
       {/* Modal para conexão offline */}
       
-      {/* <Modal
+      <Modal
         title={
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <WifiOff />
@@ -36,7 +36,7 @@ const ConnectionModal = () => {
         footer={null} // Remove os botões de ação
       >
         <p>Você está offline! Por favor, verifique sua conexão com a Internet.</p>
-      </Modal> */}
+      </Modal>
 
       {/* Modal para conexão restaurada */}
       <Modal
