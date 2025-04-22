@@ -80,7 +80,7 @@ const JoinTeamNext = () => {
                 },
               ]}
             >
-              <Input placeholder="Insira o seu primeiro nome/>
+              <Input placeholder="Insira o seu primeiro nome"/>
             </Form.Item>
             <Form.Item
               name="secondname"
@@ -93,7 +93,7 @@ const JoinTeamNext = () => {
                 },
               ]}
             >
-              <Input placeholder="Insira o seu segundo nome/>
+              <Input placeholder="Insira o seu segundo nome"/>
             </Form.Item>
             <Form.Item
               name="email"
@@ -104,7 +104,7 @@ const JoinTeamNext = () => {
                 { type: "email", message: "Email inválido!" },
               ]}
             >
-              <Input placeholder="Insira o seu email/>
+              <Input placeholder="Insira o seu email"/>
             </Form.Item>
             <Form.Item>
               <Space
