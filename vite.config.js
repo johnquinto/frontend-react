@@ -10,6 +10,7 @@ export default defineConfig({
   },
   preview: {
     port: 4173, // Para o Render
+    host: '0.0.0.0', // Expor a aplicação para qualquer IP
   },
 });
 
