@@ -71,7 +71,7 @@ const JoinTeamNext = () => {
           <Form name="join_team" onFinish={handleJoinTeam} layout="vertical">
             <Form.Item
               name="firstname"
-              initialValue="Paulo"
+              
               label="Primeiro Nome"
               rules={[
                 {
@@ -84,7 +84,7 @@ const JoinTeamNext = () => {
             </Form.Item>
             <Form.Item
               name="secondname"
-              initialValue="Daniel"
+              
               label="Segundo Nome"
               rules={[
                 {
@@ -97,7 +97,7 @@ const JoinTeamNext = () => {
             </Form.Item>
             <Form.Item
               name="email"
-              initialValue="paulodaniel@gmail.com"
+              
               label="Email"
               rules={[
                 { required: true, message: "Por favor insira seu email!" },
