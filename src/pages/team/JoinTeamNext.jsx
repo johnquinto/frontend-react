@@ -76,11 +76,11 @@ const JoinTeamNext = () => {
               rules={[
                 {
                   required: true,
-                  message: "Por favor insira seu primeiro nome!",
+                  message: "Por favor insira o seu primeiro nome!",
                 },
               ]}
             >
-              <Input />
+              <Input placeholder="Insira o seu primeiro nome/>
             </Form.Item>
             <Form.Item
               name="secondname"
@@ -89,22 +89,22 @@ const JoinTeamNext = () => {
               rules={[
                 {
                   required: true,
-                  message: "Por favor insira seu segundo nome!",
+                  message: "Por favor insira o seu segundo nome!",
                 },
               ]}
             >
-              <Input />
+              <Input placeholder="Insira o seu segundo nome/>
             </Form.Item>
             <Form.Item
               name="email"
               
               label="Email"
               rules={[
-                { required: true, message: "Por favor insira seu email!" },
+                { required: true, message: "Por favor insira o seu email!" },
                 { type: "email", message: "Email inválido!" },
               ]}
             >
-              <Input />
+              <Input placeholder="Insira o seu email/>
             </Form.Item>
             <Form.Item>
               <Space
