@@ -42,7 +42,7 @@ const CreateTeam = () => {
           label="Primeiro Nome"
           rules={[{ required: true, message: "Por favor insira seu primeiro nome!" }]}
         >
-          <Input/>
+          <Input placeholder="Insira seu primeiro nome"/>
         </Form.Item>
         <Form.Item
           name="secondname"
@@ -50,7 +50,7 @@ const CreateTeam = () => {
           label="Segundo Nome"
           rules={[{ required: true, message: "Por favor insira seu segundo nome!" }]}
         >
-          <Input />
+          <Input placeholder="Insira seu segundo nome"/>
         </Form.Item>
         <Form.Item
           name="email"
@@ -61,7 +61,7 @@ const CreateTeam = () => {
             { type: "email", message: "Email inválido!" },
           ]}
         >
-          <Input />
+          <Input placeholder="Insira seu email"/>
         </Form.Item>
         <Form.Item>
 
