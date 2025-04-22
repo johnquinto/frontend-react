@@ -38,7 +38,7 @@ const CreateTeam = () => {
         {/* Campos do formulário */}
         <Form.Item
           name="firstname"
-          initialValue="John"
+          
           label="Primeiro Nome"
           rules={[{ required: true, message: "Por favor insira seu primeiro nome!" }]}
         >
@@ -46,7 +46,7 @@ const CreateTeam = () => {
         </Form.Item>
         <Form.Item
           name="secondname"
-          initialValue="Quinto"
+        
           label="Segundo Nome"
           rules={[{ required: true, message: "Por favor insira seu segundo nome!" }]}
         >
@@ -54,7 +54,7 @@ const CreateTeam = () => {
         </Form.Item>
         <Form.Item
           name="email"
-          initialValue="johnquinto@gmail.com"
+         
           label="Email"
           rules={[
             { required: true, message: "Por favor insira seu email!" },
