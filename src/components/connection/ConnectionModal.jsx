@@ -39,7 +39,7 @@ const ConnectionModal = () => {
       </Modal>
 
       {/* Modal para conexão restaurada */}
-      <Modal
+      {/*  <Modal
         title={
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <WifiOutlined style={{ color: "rgb(0, 206, 10)" }} />
@@ -51,7 +51,7 @@ const ConnectionModal = () => {
         footer={null} // Remove os botões de ação
       >
         <p>Você está online!</p>
-      </Modal> 
+      </Modal> */}
     </>
   );
 };
