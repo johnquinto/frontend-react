@@ -77,7 +77,9 @@ const ProfilePage = () => {
 
   const onClose = () => setPreview(null);
 
-  const onCrop = (preview) => setPreview(preview); // Atualiza a visualização do corte
+    const onCrop = (croppedImage) => {
+    setPreview(croppedImage);
+  } // Atualiza a visualização do corte
 
   const beforeUpload = (file) => {
 
